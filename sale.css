@@ -22,12 +22,87 @@ header{
 
 main{
     
-    text-align: left;
-    background: white;
+     background: white;
     min-height: 500px;
     width: 100%;
     padding: 5px 10px;
     
+}
+
+.container{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75%;
+    padding: 5px;
+}
+/*Cardlar*/
+.card{
+    display: inline-block;
+    margin: 15px 0 0 15px;
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 2px 2px 2px 2px rgb(182, 182, 182);
+}
+.img1{
+    border-radius: 15px 15px 0 0;
+    width:100%;
+    
+    height: 200px;
+
+}
+ h4{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px;
+ }
+
+.about{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+    margin: 0 0 0 15px;
+}
+i{
+    font-size: .9em;
+
+}
+img{
+    border-radius:15px 15px;
+    height:300px;
+    width: 50%;
+    margin: 10px 25px 0 0;
+    float: left;
+    padding:5px;
+}
+h4{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+p{
+    font-size:1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.qiymet{
+    font-size: 2em;
+    font-weight: bold
+}
+i{
+    font-size: 1em;
 }
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -104,6 +179,16 @@ option{
 button:hover{
     background: rgb(121, 238, 66);
     color: black;
+}
+input{
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    
 }
 footer{
     clear: both;

@@ -74,16 +74,7 @@ li a{
     padding: 5px;
     
 }
-.card{
-    display: inline-block;
-    margin: 0 0  15px;
-    width: 300px;
-    height: 400px;
-    text-align: center;
-    border: 1px solid black;
-    cursor: pointer;
-    border-radius: 15px;
-}
+
 .card{
     display: inline-block;
     margin: 15px 0 0 15px;
@@ -165,17 +156,6 @@ a:hover{
   
   transition: .5s;
 }
-h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
-    padding: 20px;
-    text-align: center;
-    background: silver;
-    color: black;
-    opacity: 50%;
-    margin: 15px 0px 20px;
-}
-
 p{
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
